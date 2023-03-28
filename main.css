@@ -1,0 +1,104 @@
+ul {
+    list-style-type: none;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+    color: yellow;
+}
+
+.dropdown {
+    display: flex;
+    background-color: #d4cdcd;
+    border-radius: 5px;
+    margin: 0px 200px;
+    justify-content: left;
+    flex-wrap: wrap;
+    flex-basis: content;
+}
+
+.list {
+
+    list-style-type: none;
+    padding: 5px;
+    flex-basis: 25%;
+    margin-left: 30px;
+
+}
+
+.colour {
+    color: green;
+    font-weight: bolder;
+    font-size: 45px;
+    display: inline-table;
+}
+
+.leftitem {
+    float: left;
+    width: 33%;
+    padding: 5px;
+
+    margin-left: 180px;
+}
+
+.leftitem_2 {
+    font-size: 40px;
+}
+
+img {
+    margin: 15px 250px;
+}
+
+.row::after img::after {
+    content: "";
+    clear: both;
+    display: inline;
+}
+
+.btn1 {
+    background: green;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    margin: 2px;
+    border-radius: 4px;
+}
+
+.btn2 {
+    background: rgb(209, 198, 198);
+    border: none;
+    padding: 10px 20px 10px 20px;
+    color: green;
+    margin: 2px;
+    border-radius: 4px;
+}
+
+
+.pg {
+    font-size: 12px;
+    margin: 0%;
+    margin-left: 0px;
+}
+
+.pg1 {
+    font-size: 10px;
+    margin: 2px;
+}
